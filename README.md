@@ -24,14 +24,20 @@
 ├─ notebooks/
 │ ├─ NBA_Predictor_Colab2.ipynb # training
 │ └─ NBA_EDA_v2.ipynb # leakage-safe EDA
+│
 ├─ scripts/
 │ └─ train_full_colab.py # runnable training script
+│
 ├─ src/
 │ └─ plus/ # helper modules (metrics, odds, elo/rest, features, splits)
+│
 ├─ assets/
 │ └─ results_strip.png # metrics + calibration banner
+│
 ├─ data/ # input CSVs (not committed)
+│
 ├─ models/ # outputs: reliability.png, FINISHED.txt (not committed)
+│
 ├─ requirements.txt
 └─ README.md
 
