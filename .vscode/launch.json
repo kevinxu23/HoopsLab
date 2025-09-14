@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train (default args)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--data-games",
+        "data/games.csv",
+        "--odds-csv",
+        "data/odds.csv",
+        "--date-min",
+        "2016-10-01",
+        "--n-folds",
+        "3",
+        "--n-trees",
+        "900",
+        "--cal-frac",
+        "0.2",
+        "--seed",
+        "42",
+        "--clip-to-odds"
+      ]
+    }
+  ]
+}

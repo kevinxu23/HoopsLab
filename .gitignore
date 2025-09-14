@@ -1,0 +1,6 @@
+data/
+models/
+*.ipynb_checkpoints/
+.env
+.DS_Store
+nba_ml/
